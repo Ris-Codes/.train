@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="css/login.css" />
+
+  <head>
+    <title>.payment</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>.payment</h1>
+      </div>
+      <br />
+      <form>
+        <label for="ccn">Credit Card Number:</label><br />
+        <input
+          type="text"
+          id="ccn"
+          name="ccn"
+          placeholder="Enter your Credit Card Number"
+        /><br />
+        <label for="exp">Expiration Date:</label><br />
+        <input type="date" id="exp" name="exp" /><br />
+        <label for="cvv">CVV:</label><br />
+        <input
+          type="number"
+          id="cvv"
+          name="cvv"
+          placeholder="Enter your Card CVV"
+        /><br />
+        <label>Total Amount: $21</label><br />
+      </form>
+      <button
+        class="button"
+        onclick="window.location.href = 'train_details.html'">
+        Confirm and Pay
+      </button>
+    </div>
+  </body>
+</html>

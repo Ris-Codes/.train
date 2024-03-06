@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;600;800&display=swap");
+
+body {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  min-height: 100vh;
+  background: #f3f3f3;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px;
+  background-image: url("../assets/images/train_bg03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: #241937;
+  font-weight: 600;
+}
+
+table {
+  padding: 50px;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th {
+  color: #241937;
+}
+
+td {
+  color: #666;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #4caf50;
+  width: 50%;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #241937;
+}
+
+.container {
+  background-color: #fff;
+  line-height: 0.5;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  text-align: center;
+  padding: 10px;
+}
